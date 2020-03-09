@@ -1,0 +1,34 @@
+@media(max-width: 1050px){
+  /* Church Leaders Section */
+  #chur_lead .cl-content{
+    padding: 0 0 0 80px;
+  }
+
+  /* Inspirational Section */
+  #inspir_sect {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media(max-width: 800px){
+  /* Church Leaders Section */
+  #chur_lead .cl-content{
+    flex-direction: column;
+    margin: 50px 0 0 0;
+    padding: 0 40px 0 40px;
+  }
+
+  .cl-content div{
+    width: 100%;
+    margin: 25px 0 25px 0;
+  }
+
+  /* Inspirational Section */
+  .inspir-content{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

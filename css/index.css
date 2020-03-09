@@ -1,0 +1,252 @@
+/* Header */
+.header{
+  min-height: 40px;
+  padding: 0 30px 0 30px;
+  width: 100%;
+}
+
+.header span{
+ float: right;
+ margin: 5px 0 0 0;
+ animation-name: top-nav;
+ animation-duration: 2s;
+}
+
+.header span button{
+  color: #888;
+  border: none;
+  background: none;
+  text-align: center;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header span button:hover{
+  color: #6a99cb;
+}
+
+.header button i{
+  margin: 0 0 0 5px;
+}
+ 
+.container-2:hover input#search{
+  width: 200px;
+  border: 1px solid #6a99cb;
+}
+
+/* Entry Section */
+#entry_section{
+  background: url(../img/2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 16px;
+}
+#entry_section .section{
+  /* background-color: #000; */
+  /* opacity: 0.9; */
+  padding: 20px 0 50px 0;
+}
+
+/* Nav-Bar */
+#navbar {
+  /* padding: 0 !important; */
+  transition: 0.4s;
+  /* position: fixed; */
+  width: 100%;
+  /* top: 0; */
+  /* z-index: 999; */
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar nav ul{
+  padding: 0;
+  text-align: center;
+}
+
+#navbar nav ul a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+#navbar nav ul a::after{
+  content: '';
+  display: block;
+  transform: scale(0);
+}
+
+/* #navbar nav ul:hover a{
+  transform: scale(1.5);
+  opacity: .2;
+  filter: blur(2px);
+} */
+
+#navbar nav li{
+  display: inline;
+}
+
+#navbar nav li a:hover{
+  margin: 0 5px 0 5px;
+  /* transform: scale(1.5);
+  opacity: 1;
+  filter: blur(0); */
+  transition: 0.3s;
+}
+
+#navbar nav li a:hover:after{
+  transform: scale(1);
+  border-bottom: 2px solid #fff;
+  transition: 0.3s;
+}
+
+#navbar nav .current::after{
+  transform: scale(1);
+  border-bottom: 2px solid #fff;
+}
+
+/* Banner Section */
+#banner div center{
+  margin: 100px 0 50px 47%;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 70px;
+  padding: 20px 7.5px 15px 7.5px;
+}
+
+#banner .entry-text{
+  color: #fff;
+  text-align: center;
+  font-size: 190%;
+  font-family: cursive;
+  margin: 100px 0 0 0;
+}
+
+.entry-text div{
+  white-space: nowrap;
+  margin: -5px auto;
+  overflow: hidden;
+  animation: 
+    typing 5s steps(40, end),
+    blinking-caret.75s step-end infinite;
+}
+@keyframes typing{
+  from {width: 0%}
+  to {width: 100%}
+}
+@keyframes blinking-caret{
+  from, to{border-color: transparent}50% {border-color: transparent}
+}
+
+.entry-text span:hover{
+  color: #e5e760;
+  transition: 0.5s;
+}
+
+#banner .butt{
+  text-align: center;
+  padding: 0 100px 0 100px;
+}
+
+.butt button{
+  background-color: transparent;
+  border: 2px solid #6a99cb;
+  padding: 15px 15px 15px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin: 150px 0 0 0;
+}
+
+.butt button:hover{
+  background: #6a99cb;
+  transition: 0.5s;
+  border: 1px solid #6a99cb;
+  font-weight: bold;
+}
+
+.form-modal {
+  margin: 20px;
+}
+
+.form-modal input{
+  color: #000;
+  width: 45%;
+  padding: 5px 7px 5px 7px;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+.form-modal textarea{
+  margin: 10px 0 10px 0;
+  padding: 7px 10px 7px 10px;
+  height: 200px;
+  width: 95%;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+/* Welcome Message Section */
+#wc_section{
+  text-align: center;
+  margin: 100px 0 0 0;
+  padding: 0 150px 0 150px;
+  height: 100%;
+}
+
+#wc_section .wc-content{
+  display: flex;
+  margin: 100px 0 0 0;
+}
+
+.wc-content .left{
+  margin: 0 10px 0 0;
+  width: 50%;
+  text-align: left;
+  line-height: 2.0rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wc-content .right{
+  margin: 0 0 0 10px;
+  width: 50%;
+}
+
+.right img{
+  height: 95%;
+  width: 100%;
+}
+
+/* Upcoming Events Section*/
+#upc_events{
+  text-align: center;
+  margin: 100px 0 0 0;
+}
+
+.upc-content{
+  width: 50%;
+  margin: 5% 0 0 25%;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+
+  .form-modal input{
+    width: 100%;
+  }
+
+  .form-modal textarea{
+    width: 100%;
+  }
+}

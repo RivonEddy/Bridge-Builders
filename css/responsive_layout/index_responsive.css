@@ -1,0 +1,84 @@
+@media(max-width: 1050px){
+  /* Welcome Message Section */
+  #wc_section{
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media(max-width: 800px){
+  /* Banner */
+  .entry-text div{
+    padding: 0 30px 0 30px;
+  }
+
+  .entry-text h2{
+    font-size: 70%;
+  }
+
+  /* Welcome Message Section */
+  #wc_section{
+    padding: 0 50px 0 50px;
+  }
+
+  #wc_section .wc-content{
+    flex-direction: column-reverse;
+  }
+
+  .wc-content .left{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wc-content .right{
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  /* Upcoming Events Section */
+  .upc-content h3{
+    font-size: 150%;
+  }
+}
+
+@media(max-width: 600px){
+  /* Header */
+  .header{
+    margin: 0;
+  }
+
+  .header img{
+    margin-left: 0;
+    margin-right: 20%;
+  }
+
+  /* Banner */
+  #banner div center{
+    margin-left: 42%;
+  }
+
+  .entry-text h2{
+    font-size: 50%;
+  }
+}
+
+@media(max-width: 400px){
+  /* Header */
+  .header img{
+    margin-left: 0;
+    margin-right: 15%;
+  }
+
+  /* Banner */
+  .entry-text h2{
+    font-size: 40%;
+  }
+}
+
+@media(max-width: 340px){
+  /* Header */
+  .header img{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

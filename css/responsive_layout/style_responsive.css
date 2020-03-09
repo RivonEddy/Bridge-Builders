@@ -1,0 +1,157 @@
+@media(max-width: 1050px){
+  #latst_serm{
+    padding: 0 50px 50px 50px;
+  }
+
+  /* Main Footer Section */
+  #main_footer section{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media(max-width: 800px){
+  /* Entry Navbar */
+  #entry_nav{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Latest Sermon Section */
+  #latst_serm{
+    padding: 0 50px 50px 50px;
+  }
+
+  .lt-content{
+    flex-direction: column;
+  }
+
+  .lt-content .left{
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .lt-content .right{
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Quotes Section */
+  #quot_sect{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Newsletter Section */
+  #footer_one{
+    flex-direction: column;
+  }
+
+  #footer_one .left{
+    width: 100%;
+  }
+
+  #footer_one .right{
+    width: 100%;
+  }
+
+  /* Main Footer */
+  #main_footer section{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #main_footer section .align-butm{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .align-butm .first{
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+
+  .align-butm .first img{
+    margin-left: 0;
+  }
+  
+  .align-butm .first li{
+    margin: 0 20px 0 0;
+  }
+
+  .align-butm .two{
+    margin: 0;
+  }
+
+  .align-butm .second{
+    text-align: left;
+  }
+
+  .align-butm .third{
+    text-align: left;
+  }
+}
+
+@media(max-width: 600px){
+  /* Header */
+  header{
+    margin: 0 0 80px 0;
+  }
+
+  header img{
+    margin-left: 40%;
+  }
+
+  header nav{
+    float: left;
+    margin: 10px 0 0 0;
+  }
+
+  header li{
+    margin: 0 20px 0 20px;
+    line-height: 2.0;
+  }
+
+  /* Entry Navbar */
+  #entry_nav p{
+    text-align: center;
+  }
+
+  #entry_nav span{
+    float: none;
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+
+  /* Main Footer */
+  .align-butm .first img{
+    width: 25%;
+    height: auto;
+  }
+
+  .align-butm .two{
+    flex-direction: column;
+  }
+
+  .two .second{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 50px 0;
+  }
+
+  .two .third{
+    width: 100%;
+    text-align: center;
+  }
+
+  #main_footer h6{
+    line-height: 1.5;
+  }
+}
+
+@media(max-width: 400px){
+  /* Newsletter Section */
+  #footer_one .right input{
+    margin-bottom: 10px;
+  }
+}

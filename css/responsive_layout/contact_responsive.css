@@ -1,0 +1,46 @@
+@media(max-width: 800px){
+  /* General */
+  #contact_content{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Contact Info */
+  .contact-info{
+    flex-direction: column-reverse;
+  }
+
+  .contact-info div{
+    width: 100%;
+  }
+
+  .contact-info .left{
+    padding: 0;
+  }
+
+  /* Contact Us part */
+  form input{
+    width: 45%;
+    margin: 0 0 10px 0;
+  }
+
+  form textarea{
+    width: 92%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 600px){
+  /* General */
+  #contact_content{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  /* Contact Us part */
+  form input{
+    width: 92%;
+    margin: 0 0 10px 0;
+  }
+}

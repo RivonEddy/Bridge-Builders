@@ -1,0 +1,158 @@
+/* Sermon Tracks Section */
+#tracks_section{
+  text-align: center;
+  padding: 0 100px 0 100px;
+  margin: 100px 0 0 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#tracks_section .trac-content{
+  text-align: left;
+  width: 100%;
+}
+
+#tracks_section .top{
+  display: flex;
+  margin: 100px 0 50px 0;
+}
+
+.top div{
+  width: 50%;
+  margin: 0 15px 0 15px;
+}
+
+#tracks_section .bottom{
+  display: flex;
+  margin: 100px 0 50px 0;
+}
+
+.bottom div{
+  width: 50%;
+  margin: 0 15px 0 15px;
+}
+
+.trac-content img{
+  width: 100%;
+  height: 350px;
+  margin: 0 0 20px 0;
+}
+
+.trac-content h1{
+  color: #6a99cb;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.trac-content p{
+  color: #7c7c7c;
+  line-height: 2;
+}
+
+.trac-content span{
+  color: #c45757;
+}
+
+.trac-content audio{
+  color: #6a99cb;
+}
+
+/* Previous Sermons */
+#body-1{
+  padding: 20px 50px 50px 50px;
+  background: url('../img/sermon-bg.png') fixed center;
+}
+
+#body-1 .content{
+  text-align: center;
+  width: 100%;
+  margin: 50px 0 0 0;
+  padding: 0 300px 0 300px;
+}
+
+#body-1 .content div{
+  border: 2px solid #f5f5f5;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: auto;
+  max-height: 700px;
+}
+
+#body-1 .content h6{
+  margin: 15px 0 15px 0;
+  color: #c45757;
+}
+
+#body-1 .content h6 span{
+  color: #6a99cb;
+}
+
+#body-1 .content h4 span{
+  color: #c27878;
+}
+
+.red-butt-sermon{
+  color: #fff;
+  background: #c45757;
+  border: 1px solid #c45757;
+  /* border-bottom: 1.5px solid #d5d67e; */
+  padding: 15px 20px 15px 20px;
+  margin: 20px 0 0 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.red-butt-sermon:hover{
+  color: #c45757;
+  border: 1px solid #c45757;
+  background: transparent;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+@media(max-width: 1050px){
+  #body-1 .content{
+    padding: 0 100px 0 100px;
+  }
+
+  #body-1 .content div{
+    width: 700px;
+  }
+}
+
+@media(max-width: 800px){
+  #body-1 .content{
+    padding: 0 30px 0 30px;
+  }
+
+  #body-1 .content div{
+    width: 600px;
+  }
+}
+
+@media(max-width: 600px){
+  #body-1{
+    padding: 10px;
+  }
+
+  #body-1 .content{
+    padding: 0 25px 0 25px;
+  }
+
+  #body-1 .content div{
+    width: 350px;
+  }
+}
+
+@media(max-width: 400px){
+  #body-1{
+    padding: 5px;
+  }
+
+  #body-1 .content{
+    padding: 0 5px 0 5px;
+  }
+}
+
+@media(max-width: 325px){
+  #body-1 .content div{
+    width: 300px;
+  }
+}

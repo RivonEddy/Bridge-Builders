@@ -1,0 +1,92 @@
+/* Church Leaders Section */
+#chur_lead{
+  text-align: center;
+  margin: 100px 0 0 0;
+}
+
+#chur_lead .cl-content{
+  width: 100%;
+  display: flex;
+  margin: 100px 0 0 0;
+  padding: 0 0 0 100px;
+  width: 100%;
+}
+
+.cl-content div{
+  width: 27%;
+  margin: 0 25px 0 25px;
+}
+
+.cl-content div img{
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+
+.cl-content h4{
+  color: #2f2f2f;
+}
+
+.cl-content span{
+  font-weight: lighter;
+  color: #ccc;
+}
+
+.cl-content p{
+  font-weight: lighter;
+  line-height: 2.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 0 5px 0;
+  text-align: left;
+}
+
+.cl-content ul{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.cl-content li{
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+
+.cl-content a{
+  color: #c42222;
+  text-decoration: none;
+}
+
+/* Inspirational Thoughts Section */
+#inspir_sect{
+  margin: 100px 0 0 0;
+  text-align: center;
+  padding: 20px 100px 100px 100px;
+  background-color: #f5f5f5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inspir-content{
+  margin: 80px 30px 0 30px;
+  text-align: left;
+  display: flex;
+}
+
+.inspir-content div{
+  margin: 0 5px 0 5px;
+}
+
+.inspir-content div i{
+  font-size: 25px;
+  color: #6a99cb;
+}
+
+.inspir-content div span{
+  color: #2f2f2f;
+  font-size: 20px;
+  margin: 0 0 0 5px;
+}
+
+.inspir-content div p{
+  line-height: 2.0;
+  margin-left: 35px;
+}
